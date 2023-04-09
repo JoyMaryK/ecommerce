@@ -1,0 +1,148 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container{
+    margin-left: 7%;
+    width: 80%;
+    height: 500px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 20px;
+   border-bottom: 1px solid hsl(219, 9%, 45%);
+}
+
+.links{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    width:80%
+    
+}
+.navbar p{
+    color: hsl(219, 9%, 45%);
+    margin-left: 15px;
+    
+    padding-top: 5px;
+}
+.navbar span{
+    margin: 5px;
+}
+.title{
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+  
+}
+.profile{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 15%
+}
+
+.profile img{
+    width: 30px;
+    margin: 5px;
+}
+ /* bottom part of page */
+.item{
+    display: flex;
+    width: 90%; 
+}
+.itemImgs{
+    height: 500px ;
+}
+  
+.mainImg img {
+   width: 100%;  
+   border-radius: 30px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.otherImg{
+    display: flex;
+    justify-content: space-around;
+   margin-bottom: 20px;
+}
+.otherImg img{
+    width: 20%;
+    border-radius: 7px;
+}
+
+.itemDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    height: 450px;
+    width: 90%;
+}
+.itemDetails h3{
+    font-size: 14px;
+    color: hsl(26, 100%, 55%);
+}
+.itemDetails h2{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+.percent{
+    background-color: hsl(25, 100%, 94%);
+    padding: 2px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.itemDetails p{   
+    font-size: 17px;
+    color: hsl(219, 9%, 45%);
+}
+.itemDetails span{   
+    font-size: 17px;
+}
+.originalPrice{
+    text-decoration: line-through;
+}
+
+p button{
+    background-color:hsl(26, 100%, 55%);
+    width: 200px;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.noOfItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.noOfItems img{
+    margin-left: 5px;
+    margin-right: 5px;
+}
