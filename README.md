@@ -1,11 +1,13 @@
 # Frontend Mentor - E-commerce product page
 
+### [see it live](https://imaginative-douhua-da3fb0.netlify.app/)
+
 ![Design preview for the E-commerce product page coding challenge](./design/desktop-preview.jpg)
 
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-### [see it live](https://imaginative-douhua-da3fb0.netlify.app/)
+
 
 ## The challenge
 
